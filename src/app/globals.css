@@ -2,6 +2,20 @@
 
 @layer tailwind-base {
   @tailwind base;
+
+  h1 {
+    @apply text-4xl font-semibold leading-[2.5rem] sm:text-5xl sm:font-bold sm:leading-[3rem] sm:-tracking-[2%] xl:text-6xl xl:leading-[4.5rem];
+  }
+
+  h2 {
+    @apply text-lg font-semibold leading-7 -tracking-[2%] xl:text-4xl xl:leading-10;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold leading-8 -tracking-[2%] xl:text-3xl xl:leading-9;
+  }
 }
+
 @tailwind components;
+
 @tailwind utilities;
